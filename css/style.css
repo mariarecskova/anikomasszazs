@@ -63,6 +63,9 @@ a:active {
   height: 75vh;
 }
 
+.d-block {
+  min-height: 400px !important
+}
 
 @media screen and (max-width: 760px) {
 
@@ -119,6 +122,11 @@ a:active {
     transform: translateX(0%);
   }
 
+  .d-block {
+    min-height: 180px !important
+  }
+
+
 @keyframes navLinkFade{
   from {
     opacity: 0;
@@ -135,6 +143,19 @@ a:active {
   margin-top: 70px;
   height: 180px
 }
+}
+
+@media screen and (min-width: 400px) {
+  #massage{
+    min-height: 200px
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+  .d-block {
+    min-height: 520px !important
+  }
 }
 
 @media screen and (min-width: 1200px) {
