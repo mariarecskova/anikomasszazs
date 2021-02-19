@@ -269,7 +269,7 @@ th {
   }
 
   .carousel-item {
-    height: 180px;
+    height: 190px;
   }
 
   .container-fluid {
@@ -305,12 +305,12 @@ th {
 
 @media screen and (min-width: 400px) and (max-width: 760px) {
 
-  .logo {
-    margin-left: 5rem;
+  .d-block {
+    min-height: 2O0px !important;
   }
 
-  #massage {
-    min-height: 200px;
+  .logo {
+    margin-left: 5rem;
   }
 
   .table-borderless>:not(caption)>*>* {
