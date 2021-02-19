@@ -11,6 +11,7 @@ body {
 
 ul {
   list-style: none;
+  padding: 15px
 }
 
 a {
@@ -109,6 +110,7 @@ p {
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
+  height: 35vh
 }
 
 .footer-container {
@@ -140,12 +142,48 @@ p {
   margin: 30px
 }
 
+.table-container {
+  height: 70vh;
+  padding: 30px;
+  padding-top: 50px;
+  background-color: white;
+}
+
+th, td {
+  font-size: 20px;
+}
+
+th {
+  font-weight: 500;
+}
+
+.table {
+  padding: .6rem !important
+}
+
+.table-borderless>:not(caption)>*>* {
+  padding: .7rem !important
+}
+
 @media screen and (max-width: 760px) {
   .logo {
     width: 220px;
     height: 100px;
     margin: 0.3rem;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
+  }
+
+  .table-container {
+    padding: 10px;
+    padding-top: 30px;
+  }
+
+  th, td {
+    font-size: 16px;
+  }
+
+  .table-borderless>:not(caption)>*>* {
+    padding: .3rem !important
   }
 
   .navbar-links {
@@ -154,11 +192,19 @@ p {
     justify-content: center;
     align-items: center;
     position: absolute;
-    right: 40%;
-    top: 120px;
-    width: 30%;
+    right: 25%;
+    top: 100px;
+    width: 40%;
     transform: translateX(40%);
     transition: transform 0.5s ease-in;
+    z-index: 3;
+    
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+    background-color: #5b7d76;;
+    opacity: 0.8;
   }
 
   .navbar-links li:hover {
@@ -172,6 +218,8 @@ p {
   .nav-link {
     font-size: 16px;
     margin: 0.1rem;
+    color: white;
+    font-weight: 500;
   }
 
   .burger {
@@ -189,9 +237,6 @@ p {
     margin: 3px;
   }
 
-  .nav-active {
-    transform: translateX(0%);
-  }
 
   .d-block {
     min-height: 180px !important;
@@ -224,7 +269,6 @@ p {
   }
 
   .carousel-item {
-    margin-top: 70px;
     height: 180px;
   }
 
@@ -259,10 +303,24 @@ p {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) and (max-width: 760px) {
+
+  .logo {
+    margin-left: 5rem;
+  }
+
   #massage {
     min-height: 200px;
   }
+
+  .table-borderless>:not(caption)>*>* {
+    padding: .4rem !important
+  }
+
+  .container-fluid  {
+    height: 40vh
+  }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -272,6 +330,11 @@ p {
 
   .textbox {
     top: 350px
+  }
+
+  .table-container {
+    padding-top: 100px;
+   
   }
 }
 
@@ -321,5 +384,9 @@ p {
   
   .about-text {
     margin: 50px
+  }
+
+  .container-fluid  {
+    height: fit-content
   }
 }
