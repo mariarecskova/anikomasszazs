@@ -239,7 +239,7 @@ th {
 
 
   .d-block {
-    min-height: 180px !important;
+    min-height: 190px !important;
   }
 
   .textbox .textbox-text{
@@ -305,10 +305,6 @@ th {
 
 @media screen and (min-width: 400px) and (max-width: 760px) {
 
-  .d-block {
-    min-height: 190px !important;
-  }
-
   .logo {
     margin-left: 5rem;
   }
@@ -318,7 +314,7 @@ th {
   }
 
   .container-fluid  {
-    height: 40vh
+    height: 45vh
   }
 
 }
