@@ -196,7 +196,7 @@ th {
     top: 100px;
     width: 40%;
     transform: translateX(40%);
-    transition: transform 0.5s ease-in;
+    transition: transform 0.2s ease-in;
     z-index: 3;
     
   }
