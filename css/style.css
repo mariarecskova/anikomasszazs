@@ -204,7 +204,7 @@ th {
   .nav-active {
     transform: translateX(0%);
     background-color: #5b7d76;;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   .navbar-links li:hover {
