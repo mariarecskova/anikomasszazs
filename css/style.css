@@ -126,7 +126,7 @@ p {
 
 .footer-container {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
 }
 
 .footer-text {
@@ -143,6 +143,15 @@ p {
   padding: 30px
 }
 
+.data-container {
+  background-color: white;
+  padding: 30px
+}
+
+.data-text {
+  margin: 20px
+}
+
 .aniko {
   height: 300px;
   width: 190px;
@@ -151,9 +160,6 @@ p {
 
 .about-text {
   margin: 30px
-}
-.data-text {
-  margin: 20px
 }
 
 .table-container {
