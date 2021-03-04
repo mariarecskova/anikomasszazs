@@ -31,8 +31,13 @@ p, h1, h2, h3, h4 {
   font-family: Noto Sans;
 }
 
+h3 {
+  text-align: center;
+  padding: 20px
+}
+
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navbar {
@@ -61,14 +66,20 @@ p {
   margin: 1rem;
 }
 
+.nav-link-footer {
+  color: black;
+  font-size: 16px;
+
+}
+
 .nav-link-contact {
   margin-left: 30px;
-  font-size: 20px;
+  font-size: 18px;
   color: black
 }
 
 .logo {
-  width: 320px;
+  width: 250px;
 }
 
 .burger {
@@ -94,7 +105,7 @@ p {
 
 .textbox-text {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
   line-height: 30px;
   color: #ffffff;
@@ -110,7 +121,7 @@ p {
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  height: 35vh
+  height: 20vh
 }
 
 .footer-container {
@@ -119,7 +130,7 @@ p {
 }
 
 .footer-text {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .fb-icon {
@@ -141,9 +152,12 @@ p {
 .about-text {
   margin: 30px
 }
+.data-text {
+  margin: 20px
+}
 
 .table-container {
-  height: 70vh;
+  height: 75vh;
   padding: 30px;
   padding-top: 50px;
   background-color: white;
@@ -363,23 +377,21 @@ th {
   }
 
   .footer-text {
-    font-size: 20px;
     margin-left: 50px
   }
 
   .fb-icon {
-    height: 30px;
     margin-left: 50px
   }
 
   .aniko {
     height: 400px;
     width: 260px;
-    margin: 100px
+    margin: 40px
   }
   
-  .about-text {
-    margin: 50px
+  .main-container {
+    height: 75vh;
   }
 
   .container-fluid  {
