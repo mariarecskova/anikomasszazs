@@ -28,7 +28,7 @@ a:active {
 }
 
 p, h1, h2, h3, h4 {
-  font-family: Noto Sans;
+  font-family: Noto Sans, Roboto
 }
 
 h3 {
@@ -74,7 +74,7 @@ p {
 
 .nav-link-contact {
   margin-left: 30px;
-  font-size: 18px;
+  font-size: 16px;
   color: black
 }
 
@@ -119,8 +119,25 @@ p {
 .container-fluid  {
   background-color: white;
   padding-top: 30px;
-  padding-bottom: 30px;
-  height: 20vh
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom: 40%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:70%;
+  width: 70%;
+  position:absolute;
 }
 
 .footer-container {
@@ -158,7 +175,8 @@ p {
 }
 
 .about-text {
-  margin: 30px
+  margin: 30px;
+  font-size: 18px
 }
 
 .table-container {
@@ -324,6 +342,11 @@ th {
     margin: 20px;
     font-size: 16px;
     text-align: left
+  }
+
+  .map-responsive iframe {
+    width: 100%;
+    height: 100%
   }
 }
 
